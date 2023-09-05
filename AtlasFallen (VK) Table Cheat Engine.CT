@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="42">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"                                    Atlas Fallen "</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>""</Description>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"                               [Vulkan, 64Bit]"</Description>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>12</ID>
+                  <Description>"                                               Health"</Description>
+                  <Color>0000FF</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"FledgeCore_x64_vk.dll"+04BDA3B8</Address>
+                  <Offsets>
+                    <Offset>1A04</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>38</ID>
+                  <Description>"                                           Momentum"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>"FledgeCore_x64_vk.dll"+04BDA3D0</Address>
+                  <Offsets>
+                    <Offset>C04</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>19</ID>
+                  <Description>"                                          Essence Dust "</Description>
+                  <Color>808080</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>"FledgeCore_x64_vk.dll"+04BDA3E0</Address>
+                  <Offsets>
+                    <Offset>D04</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>22</ID>
+                  <Description>"                                         Money [Gold]"</Description>
+                  <Color>00FFFF</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"AtlasFallen (VK).exe"+01A70258</Address>
+                  <Offsets>
+                    <Offset>A04</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>""</Description>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>""</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"                                                       Exploration"</Description>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>27</ID>
+              <Description>""</Description>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>30</ID>
+                  <Description>"Fiery leaves"</Description>
+                  <Color>0000FF</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>"AtlasFallen (VK).exe"+01A702D8</Address>
+                  <Offsets>
+                    <Offset>30</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>25</ID>
+                  <Description>"Coppery ore"</Description>
+                  <Color>4080FF</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>"AtlasFallen (VK).exe"+01A702D8</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>34</ID>
+                  <Description>"Golden ore"</Description>
+                  <Color>00FFFF</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>"AtlasFallen (VK).exe"+01A702D8</Address>
+                  <Offsets>
+                    <Offset>78</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>health :movss xmm6,[rax+rcx*4]</Description>
+      <AddressString>FledgeCore_x64_vk.dll+14B2DF9</AddressString>
+      <Before>
+        <Byte>05</Byte>
+        <Byte>D7</Byte>
+        <Byte>75</Byte>
+        <Byte>72</Byte>
+        <Byte>03</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>34</Byte>
+        <Byte>88</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+        <Byte>FF</Byte>
+        <Byte>15</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
